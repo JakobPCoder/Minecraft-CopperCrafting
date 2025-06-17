@@ -1,0 +1,59 @@
+---
+description: Minecraft Fabric Modding IMPORTANT NOTES! Always load this when doing anything related to minecraft modding.
+globs: 
+alwaysApply: false
+---
+How the json structure works and how to add new items
+resources/assets/modname/items | base json
+{
+  "model": {
+    "type": "minecraft:model",
+    "model": "steelcrafting:item/steel_axe"
+  }
+} 
+
+
+resources/assets/modname/models/item | model json
+{
+  "parent": "item/handheld",
+  "textures": {
+    "layer0": "steelcrafting:item/steel_axe"
+  }
+} 
+
+resources/assets/modname/models/block
+
+resources/data/modname/recipe | recipe json (recipe NOT recipes!)
+Example recipe:
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "S S",
+    " S ",
+    "   "
+  ],
+  "key": {
+    "S": "steelcrafting:steel_ingot"
+  },
+  "result": {
+    "id": "minecraft:bucket",
+    "count": 2
+  }
+} 
+
+
+ModItems.java
+// Steel Axe item
+public static final Item STEEL_AXE = registerItem(
+    "steel_axe",
+    settings -> new AxeItem(SteelToolMaterial.STEEL, 6.0F, -3.1F, settings),
+    new Item.Settings()
+);
+
+public static void registerModItems() {
+    ItemGroupEvents.modifyEntriesEvent(ItemGroups.COMBAT).register(entries -> {
+        entries.add(STEEL_AXE);
+    });
+}
+
+also dont forget the lang file entry.

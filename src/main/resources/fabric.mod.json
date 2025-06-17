@@ -1,0 +1,40 @@
+{
+	"schemaVersion": 1,
+	"id": "coppercrafting",
+	"version": "${version}",
+	"name": "CopperCrafting",
+	"description": "This is an example description! Tell everyone what your mod is about!",
+	"authors": [
+		"Jak0bW"
+	],
+	"contact": {
+		"homepage": "https://github.com/JakobPCoder",
+		"sources": "https://github.com/JakobPCoder/Minecraft-CopperCrafting"
+	},
+	"license": "CC BY-NC 4.0",
+	"icon": "assets/coppercrafting/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"jak0bw.coppercrafting.CopperCrafting"
+		],
+		"fabric-datagen": [
+			"jak0bw.coppercrafting.CopperCraftingDataGenerator"
+		],
+		"client": [
+			"jak0bw.coppercrafting.CopperCraftingClient"
+		]
+	},
+	"mixins": [
+		"coppercrafting.mixins.json"
+	],
+	"depends": {
+		"fabricloader": ">=0.16.14",
+		"minecraft": "~1.21.4",
+		"java": ">=21",
+		"fabric-api": "*"
+	},
+	"suggests": {
+		"another-mod": "*"
+	}
+}

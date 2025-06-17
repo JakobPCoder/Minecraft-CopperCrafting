@@ -1,0 +1,10 @@
+{
+  "layers": {
+    "humanoid": [
+      { "texture": "coppercrafting:copper" }
+    ],
+    "humanoid_leggings": [
+      { "texture": "coppercrafting:copper" }
+    ]
+  }
+} 
