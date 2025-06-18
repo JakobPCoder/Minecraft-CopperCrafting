@@ -3,6 +3,9 @@ description: Minecraft Fabric Modding IMPORTANT NOTES! Always load this when doi
 globs: 
 alwaysApply: false
 ---
+These are exmaples of what fiels  and code are needed to add enw items with the fabric minecraft 1.21.4 framework.
+If you dont need this info for the users rewuest, just ignore it!
+
 How the json structure works and how to add new items
 resources/assets/modname/items | base json
 {
@@ -57,3 +60,6 @@ public static void registerModItems() {
 }
 
 also dont forget the lang file entry.
+
+Thats all the reference we got for now.
+

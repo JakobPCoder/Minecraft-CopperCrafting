@@ -20,12 +20,8 @@ public class CopperArmorMaterial {
     /**
      * Base durability multiplier for copper armor (slightly less than iron).
      */
-    public static final int BASE_DURABILITY = 25;
+    public static final int BASE_DURABILITY = 12;
 
-    /**
-     * Tag for copper ingots, used for repairing copper armor.
-     */
-    public static final TagKey<Item> REPAIRS_COPPER_ARMOR = TagKey.of(net.minecraft.registry.RegistryKeys.ITEM, Identifier.of("coppercrafting", "repairs_copper_armor"));
 
     /**
      * Registry key for the copper armor material asset.
@@ -39,16 +35,16 @@ public class CopperArmorMaterial {
         BASE_DURABILITY,
         Map.of(
             EquipmentType.HELMET, 2,
-            EquipmentType.CHESTPLATE, 6,
-            EquipmentType.LEGGINGS, 5,
+            EquipmentType.CHESTPLATE, 4,
+            EquipmentType.LEGGINGS, 4,
             EquipmentType.BOOTS, 2,
-            EquipmentType.BODY, 5
+            EquipmentType.BODY, 6 // whatever this is. 
         ),
-        9, // Enchantability (iron)
-        SoundEvents.ITEM_ARMOR_EQUIP_IRON,
-        0.0F, // Toughness (iron)
-        0.0F, // Knockback resistance (iron)
-        REPAIRS_COPPER_ARMOR,
+        22, // Enchantability 
+        SoundEvents.ITEM_ARMOR_EQUIP_GOLD,
+        0.0F, // Toughness 
+        0.0F, // Knockback resistance 
+        CopperCraftingItemTags.REPAIRS_COPPER_ARMOR,
         COPPER_ARMOR_MATERIAL_KEY
     );
 } 
