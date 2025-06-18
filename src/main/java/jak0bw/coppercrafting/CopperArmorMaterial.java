@@ -1,6 +1,7 @@
 package jak0bw.coppercrafting;
 
 import net.minecraft.item.equipment.ArmorMaterial;
+import net.minecraft.item.equipment.ArmorMaterials;
 import net.minecraft.item.equipment.EquipmentAsset;
 import net.minecraft.item.equipment.EquipmentAssetKeys;
 import net.minecraft.item.equipment.EquipmentType;
@@ -24,7 +25,7 @@ public class CopperArmorMaterial {
     /**
      * Tag for copper ingots, used for repairing copper armor.
      */
-    public static final TagKey<Item> COPPER_INGOTS = TagKey.of(net.minecraft.registry.RegistryKeys.ITEM, Identifier.of("minecraft", "copper_ingots"));
+    public static final TagKey<Item> REPAIRS_COPPER_ARMOR = TagKey.of(net.minecraft.registry.RegistryKeys.ITEM, Identifier.of("coppercrafting", "repairs_copper_armor"));
 
     /**
      * Registry key for the copper armor material asset.
@@ -40,13 +41,14 @@ public class CopperArmorMaterial {
             EquipmentType.HELMET, 2,
             EquipmentType.CHESTPLATE, 6,
             EquipmentType.LEGGINGS, 5,
-            EquipmentType.BOOTS, 2
+            EquipmentType.BOOTS, 2,
+            EquipmentType.BODY, 5
         ),
         9, // Enchantability (iron)
         SoundEvents.ITEM_ARMOR_EQUIP_IRON,
         0.0F, // Toughness (iron)
         0.0F, // Knockback resistance (iron)
-        COPPER_INGOTS,
+        REPAIRS_COPPER_ARMOR,
         COPPER_ARMOR_MATERIAL_KEY
     );
 } 

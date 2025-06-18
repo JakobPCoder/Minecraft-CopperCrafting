@@ -1,6 +1,7 @@
 package jak0bw.coppercrafting;
 
 import net.minecraft.item.ToolMaterial;
+
 import net.minecraft.registry.tag.BlockTags;
 import net.minecraft.registry.tag.TagKey;
 import net.minecraft.item.Item;
@@ -16,7 +17,7 @@ import net.minecraft.registry.tag.ItemTags;
  */
 public class CopperToolMaterial {
     // Custom tag for steel ingots, used for repairing steel tools and armor
-    public static final TagKey<Item> COPPER_TOOL_MATERIALS = TagKey.of(RegistryKeys.ITEM, Identifier.of("coppercrafting", "copper_ingots"));
+    public static final TagKey<Item> REPAIRS_COPPER_TOOL = TagKey.of(RegistryKeys.ITEM, Identifier.of("coppercrafting", "repairs_copper_tool"));
 
 
     /**
@@ -29,6 +30,6 @@ public class CopperToolMaterial {
         4.0F,   // Stone mining speed
         2.0F,   // Stone attack damage bonus
         22,     // Enchantability gold
-        COPPER_TOOL_MATERIALS  // Use copper ingots for repair
+        REPAIRS_COPPER_TOOL // Use copper ingots for repair
     );
 } 
