@@ -1,7 +1,7 @@
 ---
-description: Minecraft Fabric Modding IMPORTANT NOTES! Always load this when doing anything related to minecraft modding.
+description: 
 globs: 
-alwaysApply: false
+alwaysApply: true
 ---
 These are exmaples of what fiels  and code are needed to add enw items with the fabric minecraft 1.21.4 framework.
 If you dont need this info for the users rewuest, just ignore it!
@@ -33,7 +33,6 @@ Example recipe:
   "pattern": [
     "S S",
     " S ",
-    "   "
   ],
   "key": {
     "S": "steelcrafting:steel_ingot"
@@ -60,6 +59,6 @@ public static void registerModItems() {
 }
 
 also dont forget the lang file entry.
-
 Thats all the reference we got for now.
+Ignore the examples above if they dont apply to your task
 

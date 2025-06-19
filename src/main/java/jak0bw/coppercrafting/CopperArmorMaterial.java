@@ -35,7 +35,7 @@ public class CopperArmorMaterial {
         BASE_DURABILITY,
         Map.of(
             EquipmentType.HELMET, 2,
-            EquipmentType.CHESTPLATE, 4,
+            EquipmentType.CHESTPLATE, 5,
             EquipmentType.LEGGINGS, 4,
             EquipmentType.BOOTS, 2,
             EquipmentType.BODY, 6 // whatever this is. 

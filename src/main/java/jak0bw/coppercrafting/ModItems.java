@@ -116,6 +116,10 @@ public class ModItems {
             entries.add(COPPER_LEGGINGS);
             entries.add(COPPER_BOOTS);
         });
+
+        ItemGroupEvents.modifyEntriesEvent(ItemGroups.REDSTONE).register(entries -> {
+            entries.add(ModBlocks.COPPER_PRESSURE_PLATE);
+        });
     }
 
 } 

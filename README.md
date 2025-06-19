@@ -4,56 +4,53 @@
 
 [CurseForge]() Direct download of the jar.
 
-**CopperCrafting** is a Fabric mod that adds copper tools and armor and other recipes revolving around copper.
-
-# Tools and Armor
-**Copper Items** fall somewhere between **stone/gold** and **iron** when it comes to protection, durability, damage and mining speed. They are ****highly enchantable**** though!
-
-## Armor
-
-### Protection
-| Material | Head | Chest | Legs | Feet | Total |
-|----------|------|-------|------|------|-------|
-| Leather  | 1    | 3     | 2    | 1    | 7     |
-| Gold     | 2    | 5     | 3    | 1    | 11    |
-| **Copper**| 2    | 4     | 4    | 2    | 12    |
-| Iron     | 2    | 6     | 5    | 2    | 15    |
-| Diamond  | 3    | 8     | 6    | 3    | 20    |
+**CopperCrafting** is a Fabric mod that adds copper tools and armor and other recipes revolving around copper. The goal was to make copper more interesting and useful, while trying to feel just like a piece of the vanilla item material progression.
 
 
-### Durability
-- Leather: 5
-- Gold: 7
-- **Copper: 12**
-- Iron: 15
-- Diamond: 33
+## Blocks
 
-### Enchantability
-- Leather: 15
-- Gold: 25
-- **Copper: 22**
-- Iron: 9
-- Diamond: 10
+### **Light Counting Pressure Plate**  
+
+  This pressure plate is a bit different from the vanilla pressure plate, as it **counts each item** on it, not each entity.
+  This means items in stacks are correctly counted.
+
+  > Outputs **one** redstone signal for each **item**/entity on the pressure plate.
 
 
 ## Tools
-- Can only mine what stone tools can mine.
-### Durability
-- Gold: 32
-- Wood: 59
-- Stone: 131
-- **Copper: 180**
-- iron: 250
-- diamond: 1561
 
-### Enchantability
-- Gold: 22
-- Wood: 15
-- Stone: 5
-- **Copper: 20**
-- Iron: 14
-- Diamond: 10
+**Copper tools** can mine the same things and have the same mining speed as **stone** tools.
 
+**Copper tools** sit between stone and iron tools when it comes to durability.
+
+**Copper tools** are ***highly enchantable***, almost as much as gold.
+
+
+| Material   | Durability | Mining Speed | Damage Bonus | Enchantability |
+|------------|------------|--------------|---------------------|----------------|
+| Gold       | 32         | 12.0         | 0.0                 | 22             |
+| Wood       | 59         | 2.0          | 0.0                 | 15             |
+| Stone      | 131        | 4.0          | 1.0                 | 5              |
+| **Copper** | **180**    | **5.0**      | **1.0**             | **20**         |
+| Iron       | 250        | 6.0          | 2.0                 | 14             |
+| Diamond    | 1561       | 8.0          | 3.0                 | 10             |
+
+
+## Armor
+
+**Copper armor** offers **protection between gold and iron armor**.
+
+**Copper armor** also sits between gold and iron when it comes to durability.
+
+**Copper armor** is ***highly enchantable***, almost as much as gold.
+
+| Material   | Head | Chest | Legs | Feet | Total | Durability | Enchantability |
+|------------|------|-------|------|------|-------|------------|----------------|
+| Leather    | 1    | 3     | 2    | 1    | 7     | 5          | 15             |
+| Gold       | 2    | 5     | 3    | 1    | 11    | 7          | 25             |
+| **Copper** | **2**| **5** | **4**| **2**| **13**| **12**     | **22**         |
+| Iron       | 2    | 6     | 5    | 2    | 15    | 15         | 9              |
+| Diamond    | 3    | 8     | 6    | 3    | 20    | 33         | 10             |
 
 
 

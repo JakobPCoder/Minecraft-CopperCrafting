@@ -7,5 +7,6 @@
   "item.coppercrafting.copper_helmet": "Copper Helmet",
   "item.coppercrafting.copper_chestplate": "Copper Chestplate",
   "item.coppercrafting.copper_leggings": "Copper Leggings",
-  "item.coppercrafting.copper_boots": "Copper Boots"
+  "item.coppercrafting.copper_boots": "Copper Boots",
+  "block.coppercrafting.copper_pressure_plate": "Light Counting Pressure Plate"
 } 
