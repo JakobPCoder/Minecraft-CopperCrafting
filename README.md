@@ -19,7 +19,9 @@
 
 ## Tools
 
-**Copper tools** can mine the same things and have the same mining speed as **stone** tools.
+**Copper tools** can mine the same things as **stone** tools.
+
+**Copper tools** have a  mining speed between **stone** and **iron** tools.
 
 **Copper tools** sit between stone and iron tools when it comes to durability.
 
@@ -31,7 +33,7 @@
 | Gold       | 32         | 12.0         | 0.0                 | 22             |
 | Wood       | 59         | 2.0          | 0.0                 | 15             |
 | Stone      | 131        | 4.0          | 1.0                 | 5              |
-| **Copper** | **180**    | **5.0**      | **1.0**             | **20**         |
+| **Copper** | **200**    | **5.0**      | **1.0**             | **20**         |
 | Iron       | 250        | 6.0          | 2.0                 | 14             |
 | Diamond    | 1561       | 8.0          | 3.0                 | 10             |
 

@@ -21,7 +21,7 @@ public class CopperToolMaterial {
      */
     public static final ToolMaterial COPPER = new ToolMaterial(
         BlockTags.INCORRECT_FOR_STONE_TOOL,  // Same mining level as iron
-        180,    // Less durability than iron
+        200,    // Less durability than iron
         5.0F,   // Between stone and iron mining speed
         1.0F,   // Stone attack damage bonus
         20,     // Enchantability between iron and gold
