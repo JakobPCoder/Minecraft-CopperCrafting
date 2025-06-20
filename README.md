@@ -16,12 +16,13 @@
 
   > Outputs **one** redstone signal for each **item**/entity on the pressure plate.
 
+  *Get the Heavy Counting Pressure Plate by installing my [SteelCrafting](https://www.curseforge.com/minecraft/mc-mods/steelcrafting) mod.*
 
 ## Tools
 
-**Copper tools** can mine the same things as **stone** tools.
+**Copper tools** can mine the same things as **iron** tools.
 
-**Copper tools** have a  mining speed between **stone** and **iron** tools.
+**Copper tools** have a mining speed between **stone** and **iron** tools.
 
 **Copper tools** sit between stone and iron tools when it comes to durability.
 
